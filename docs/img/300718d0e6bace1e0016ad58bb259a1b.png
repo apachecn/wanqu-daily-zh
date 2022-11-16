@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site Not Configured | 404 Not Found</title>
+</head>
+
+<body>
+    <style>
+	@import url(//fonts.googleapis.com/css?family=Open+Sans:300);
+
+    body {
+    color: #000;
+    font-family: 'Open Sans Regular', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 50px 25px;
+    }
+
+    h1 {
+    font-size: 200px;
+    color: #44BCC8;
+    font-weight:300;
+    margin:0;
+    padding:0;
+    }
+
+    h2 {
+    font-weight:300;
+    margin:0;
+    padding:0;
+    }
+
+    hr {
+    background:#DFDFDF;
+    height: 1px;
+    border:0;
+    margin: 20px 0 30px;
+    }
+
+    a {
+    color: #44BCC8;
+    text-decoration: none;
+
+    }
+
+    a:hover {
+    text-decoration: underline;
+    }
+
+    p {
+	    margin-bottom:40px;
+    }
+
+    .admin {
+	    margin-bottom:1em;
+    }
+
+    .logo {
+    font-size: 12px;
+    margin-top:20px;
+    }
+
+    .logo img {
+    border : 0;
+    outline : none;
+    position: relative;
+    top: 7px;
+    padding-left:5px;
+    }
+    </style>
+
+    <h1>404</h1>
+
+    <h2>The site you were looking for couldn't be found.</h2>
+
+        <hr>
+
+    <p class="admin">
+	    This domain is successfully pointed at WP Engine, but is not configured for an account on our platform.
+	    <ul>
+		    <li>If you just signed up, we're still likely creating your account.</li>
+		    <li>Did you <a href="http://wpengine.com/support/add-domain-in-user-portal/">add this domain to your install</a>?</li>
+<li>Did you point DNS to the correct <a href="http://wpengine.com/support/find-ip/">IP address</a> or <a href="http://wpengine.com/support/cname/">CNAME</a>?</li>
+
+	    </ul>
+
+	    If you've completed the steps above, or need more help, please <a href="https://my.wpengine.com/support">contact us</a> and we can help get your site up and running in no time.
+    </p>
+
+    <hr>
+
+    <p class="logo">
+	    Hosted by <a href="https://www.wpengine.com"><img height="25px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANgAAAA3CAMAAABZ7HSIAAADAFBMVEVHcExAusdAuchAusg/usdDu8pAushAucdDu8lAushAucZEu8w/usg/usc9t8w/ucg0NDQ0NDQ/Pz8/usczMzM0NDQwMDBAusc+ucZAusgzMzM0NDRAvMVBusdAusg/v8U/u8c/usg+u8ZAucc/ucc/tMpAusZCvMdAusc/uck/ushItrZAuck/usk/usg/u8c6xMQ9uMo/v782NjYzMzM0NDQ0NDQ5OTkzMzMzMzMzMzMqKiozMzMzMzMzMzM0NDQzMzMxMTE1NTU0NDQ3NzcxMTExMTE4ODgAAAAzMzMqKiokJCRAusdAuchAucg/uscyMjIzMzM0NDQzMzMzMzMzMzM0NDQzMzM0NDQzMzMzMzMzMzM0NDQzMzM0NDQuLi40NDQ1NTU0NDQ0NDQzMzM0NDQzMzMzMzMzMzMzMzMzMzMzMzMzMzM0NDQ0NDQzMzM4ODg0NDQ0NDQzMzM0NDQzMzNVXV00NDQ0NDQ0NDQzMzM3Nzc/uchAuslAucgzMzM0NDQzMzMzMzM0NDQ0NDQzMzM1NTU0NDQ0NDQ1NTUzMzMzMzMzMzMzMzM1NTU0NDQ3NzczMzMzMzMzMzM0NDQ0NDQzMzMzMzM0NDQzMzMyMjIxMTEzMzNAusdDu8k0NDQzMzMzMzM0NDQzMzMzMzMzMzM0NDQAAAAzMzMvLy8zMzMzMzMzMzM0NDQ0NDQ0NDQzMzMzMzMzMzM0NDRBuMc0NDQ0NDQzMzM0NDQrKytAu8kzMzM0NDQ0NDQ0NDQzMzMzMzM0NDQrKytBuMgzMzMuLi4zMzMqKio/ucc/ushAucdAucc0NDQzMzMzMzMrKys/usg0NDQqKio0NDQpKSlAusczMzNBuMg/usgzMzMzMzM/uchGuMZAusg/ucgzMzMpKSlAushAusg/usg0NDRBt8o+usc+u8U0NDQ9uchAucg7zv8/ucdAusc/usdAusdAusg/ushAucg/uchAuchAu8g/ushEusQ/usc+uMdAucdAusdEu8w/ucg/ucc/ucr4/E5EAAABAHRSTlMAFdr/+SKn/iafOw+2vRnddJMIoNH/Fa8oo3aWI1a7CDzuLW60DD8udzCABz00OUAEHAwhc3VgBCdxGQxpbREiSB8mExcpJAkBIwYHs5uanTMsnEboWuuiNare3+G7UBaNGFK+2dvWpHjU5IYPgj9NDVzE2tedA2XI3Jol6Efzz9K1e6ZW7So+7zRC8sY2L+kgoDJLsPBKuOZ8OC5U3hP5sl7g9+ORvwLLEGaAvPS05a3C/BoyYf5oiDpbQFev/Qr2MYEvOgvirB/K+o/6qEXClZjKf0/jPGKlHorlElOtrkOCsvxYJyUxaiG/AYWqnNPX6tLR90vOGvRFxqse4LAsK+jV+wAABxZJREFUeAHs0wN2g0EUQOHbvtpubNvG/lcV49dBnMyZu4PvAeDqWgzd3N6JufuHR7H2xPn3/CJKwp5fRUnY24uoCXsXRWFyuTAN0zAN0zAN+/j82ifs+2xgP79/28P+xZLLfTYwj3f7jfn892IqEAyFVfixCFExFotDIqwALAkpWfcfBLPsQmGSBjKy7C4LDrIc517eVhygUJyXKLGonDdWwVDVU6vVG02A1sdHuwPQ7dVrH/0BDD/G7dgDdGPbHsfx3/PiZfezbdW2L2qmtp1qPJPatm23l2PPXHv0bNvvnf87OeekSSana42z5lP99y6/K7uRGc/CyRnb2bpYuWI7N3cPT2zjbGXqBf1srLx9tHc8fMF7TNvj34Ven378CcmTH4cGP0b8aQzgBjMaAmkriAsLZqKQUBdIwsIjIiMUUdHgxcTGIT4hMSkxOcUfAs/UtPSkyOSMTGRlg+SY87WxucjLTyxILCzygEBZXKIoVSSVles/irveBX1277n+UbTcyzjBAHz3ccN+cA7Q1kEAh5iGkGwI7FUpgRVWlbEhRZYgFVUVsYrUag+rmpTaYPBc64LM68sbDpWkue2zB8moA6lvbGqONGvxcG9ta+8AL7ezq7vHpTe6s6pPb1j/gHyX9pXHw4zzMAD/Qbqc3AAM0dawdhgbcQMveDQQIOVj4yDuBSkTMQCxG2wAmeycmgbxah7aOwMyOwdSXRi+PxMg3fPeIJMLdepzPTPaIx8mdRkK62CcOi9ghhEnwDaR+zhfLoTVTu3dG8JIKkAcFmfEgzxaDY5LbZcN1PYvgeSMOoKnXF6x0AxrGE3OhdrUx0AOVa1C7eES5Q7D1qjLQJhNI2OscRUIZyQW8B+lVKUQNgSlsqmNpmWArCdZQjBUBE75xiwE0UHT4CykQBDMhjXDetkMBJsRPuAsb0Gwqnpqh2FPy92l2s84zyAzgpEpJZ6lj1sQwp6jqeV5bio8DBL+MYiCCyjS5UglBFaNdBYPjx2CwHFwXTPs6Lw/BPUhpgBs0nsgSjhmKOy7nz4OtU/IhVkzzkdx4nlG5q0wzn3YqBHD2mg6Sp9NPAliUgyRn2KVYoJ6IYhLp0iPoKMQ2KbPaIb5nWqCoDy9gfIi4iCKPW0g7MzZ95w7/+0dhrVcoIsFqdz7Fe7NAsvc+3RXMWwJQNxF6Sgqk16AaDXSH4B7lxT2QQWFVZ9yhsCrcHPblYdC+pR3lx+AFyIgMXvRQNhL0rW6fJhnMp0y307GjhRxU+jJRQqFGKaamJgYY+QAiGfB3MdeVvvY0kqv3rDKsTiI9smEBQ42Sz8x+RUDYZ+nxSd2GIYyOoEvRDKWVl3LmEngBre2E8MkY6sgh0vDD7wqsp/WG5at+CBEJnaGw1rnM7pfFXS/ZiCMrjBe/85Ow6IZ5+IKY82oY2yQrh1H/XXDqmpA4KmgQaI37I30OIjSNmXCIqHJQBje/ORbX8FOw96uYozRlcOz2FL/o5n4aIfNt1ErmUx8Vj7Mb8wUEL9hxnBYjSJTPkyHfBjm2P/VOqJmgx8fhhRW+k5shnWfFURT5vJhjkF+EOR2yYS1pJvKhF26DB1X5MMO8DXLk3A4xY85GmFL0NIcLh/2iCIPApeVdcNhDouBMmFfVULHF67KhtWvMNINoI2RkFWNsDZoiVa5yoYh/BoExWzYcBiGQiHxAnS6oM+nPiQXlptEAc+/AfojSBQMhT2SNA6B/cPXCau54A/eyalBC5mwF1bEg+tz7Xs6Yd8H9Jf94D3bfBramimgNBdAxSiNDxkKoz/aDCCWWe1O1wnDwVJTvmsodGpTJgwBIUfVG8t104B8l1D2gR9KPvBNaAumgBSaLE1orAfvR7RYgI5DVcubNfUvpCan9YBU1DZAEKOqATn8nGo8sKfGunTi5JTdtsdjKo27VLVhID5lqoD4Eyeiy7oCbLWfGvgsDPjxT9Q+/NOfrn0B2ppKq1Qh8SCvVqmqlk+C16pSqaqKoOvtLRNFUkTCpidAHMxjpIP6kPoC8cqbGymNrPuZD0x+BvKMBYiNWS4EmQ/FgfdCeEFkRGJKtu5TA2/9HLwPf/4XgqcB/PJXv37rI7/hPfn4cegV5+3YNAni6+3o4QBCC0dHU1rp4xBzGHJs3agByevYAeUHP+il91rxt3zZx38nbZ27woXRWvT7b+K2m05/4caefvvDGQDf+aPm1p/+jF/+5T13uKwmyO0Gwsgf34e/nt2+9be/g8Juf5ljHgSdKbiRMPKPXz6pvfXgu/7xHq2yj+M2aBiM9QRRxoY03XDY61/7kPbWrjMUdgeeCT5RGJGRk+2UmlYahhsO6//aP7W3Lv2Lwu7Ec/eHizvTkguj7DNhZGHEcxLE+MLI/bD7YUYU9rqxhv3l21eNMuzfX8F/jDHs31+CUYb97r8wkrD/AQby4xHTwxtnAAAAAElFTkSuQmCC"></a>
+    </p>
+</body>
+</html>

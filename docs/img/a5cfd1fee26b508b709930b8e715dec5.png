@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Sorry, something has gone wrong</title>
+    <style type="text/css">
+        * {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 13px;
+        }
+        .error {
+
+        }
+        #logo a {
+            text-decoration: none;
+            color: #CCCCCC;
+            font-size: 2em;
+        }
+        p {
+            margin: 1.5em;
+        }
+        i.fa-10x {
+            font-size: 10em;
+        }
+    </style>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+</head>
+<body class="error">
+    <div style="margin:2em auto;text-align:center;">
+        <div id="logo"><a href="/">Wired.com</a></div>
+
+        <p><strong>Sorry, something has gone wrong.</strong></p>
+        <p><i class="fa fa-fire-extinguisher fa-10x" aria-hidden="true"></i></p>
+        <p>Please try again soon.</p>
+
+        <!--
+        Error 503 : first byte timeout
+        XID: 77944992
+        -->
+    </div>
+</body>
+</html>

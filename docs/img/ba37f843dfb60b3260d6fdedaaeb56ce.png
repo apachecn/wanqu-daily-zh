@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html class="no-js" style="overflow-x:visible!important">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Threader</title>
+        <meta name="description" content="Welcome to Threader, a place to read and discover stories and knowledge from Twitter. Get a selection of good threads every day." />
+        <meta name="theme-color" content="#000000" />
+        <link rel="icon" type="image/x-icon" href="https://threader.app/img/favicon.png" />
+        <meta name="viewport" content="width=device-width">
+        <meta name="msvalidate.01" content="46925F658737FC613F4EBD5BC47E9105" />
+        <meta property="og:title" content="Threader" />
+        <meta property="fb:app_id" content="308224123018880"/>
+        <meta property="og:image" content="https://threader.app/img/ogthreader.jpg" />
+        <meta property="og:image:secure_url" content="https://threader.app/img/ogthreader.jpg" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:description" content="Welcome to Threader, a place to read and discover stories and knowledge from Twitter. Get a selection of good threads every day." />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="628" />
+        <meta property="og:url" content='https://threader.app' />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:site" content="@threader" />
+        <meta name="twitter:app:name:iphone" content="Threader" />
+        <meta name="twitter:app:id:iphone" content="1317519091" />
+        <meta name="twitter:app:url:iphone" content="com.thrdr://" />
+        <meta property="al:ios:app_name" content="Threader" />
+        <meta property="al:ios:app_store_id" content="1317519091" />
+        <meta property="al:ios:url" content="com.thrdr://" />
+        <meta property="al:web:url" content="https://threader.app/" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:creator" content="@threader" />
+        <meta property="twitter:image" content="https://threader.app/img/ogthreader.jpg" />
+        <meta property="twitter:description" content="Get a selection of good threads from Twitter every day" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://threader.app/js/popper.min.js"></script>
+
+        <link rel="stylesheet" href="https://threader.app/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://threader.app/css/main.css?v=2.5">
+        
+
+        <!--[if lt IE 9]>
+            <script src="/js/vendor/html5shiv.min.js"></script>
+        <![endif]-->
+
+        <script src="https://threader.app/js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
+    </head>
+    <body style="background-color: #FAFAFA;">  
+            
+        <header class="hero-image" role="banner" style="height: 57px;background: black;">
+
+            <span class="menu-trigger animated fadeInDown" style="display:none;">
+                
+                <button class="menu-hamburger-container">
+                    <div class="menu-hamburger-line"></div>
+                </button>
+
+            </span>
+
+
+            <div id="menu-target" style="display:none;">
+                <!--
+                <ul>
+                    <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+                </ul>
+                <hr>
+                <ul>
+                    <li><i class="fa fa-file"></i><a href="support.html">Support</a></li>
+                </ul>
+                -->
+            </div>
+
+
+<div class="row flex-nowrap justify-content-between align-items-center fixed-top" id="header-fx">
+
+          <div class="col-4 pt-1" id="header-left">
+         
+          </div>
+          <div class="col-4 text-center" id="threader-logo">
+            <a class="article-header-logo" href="https://threader.app">Threader</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+           
+        </div>
+        </div>
+      
+        </header>
+
+            <!--
+            <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center" style="background:black;">
+                <a href="/" class="navbar-brand d-flex w-50 mr-auto"><img src="img/logo.svg" height="40" width="40"></a>
+                <div class="navbar">
+                    
+                </div>
+            </nav>
+            -->
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="https://threader.app/fancybox/lib/jquery.mousewheel.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="https://threader.app/fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+<script type="text/javascript" src="https://threader.app/fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="https://threader.app/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="https://threader.app/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="https://threader.app/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="https://threader.app/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="https://threader.app/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+        $(".fancybox").fancybox();
+        });
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <script type="text/javascript" src="https://threader.app/js/0.commons.en.ceca90fbb6e5ac78fd52.js"></script>-->
+<style>
+
+.menu-trigger{display: none;}
+
+#topbutton {
+border: #6c757d 1px solid;
+color: #6c757d;
+padding: 5px 10px !important;
+}
+
+#topbutton:hover {
+border: #FFF 1px solid;
+color: #FFF;
+background:#000;
+
+}
+
+#header-fx {
+
+background: #000;
+
+width: 100%;
+
+padding-right: 15px;
+
+padding-left: 15px;
+
+margin-right: auto;
+
+margin-left: auto;
+
+}
+
+#threader-logo {
+
+padding-top:4px;
+
+}
+
+.article-header {
+
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.article-header-logo {
+
+    font-family: "Times";
+    font-size: 3.25rem;
+    color:#FFF;
+    font-weight: bold;
+}
+
+.text-muted {
+
+    color: #6c757d !important;
+
+}
+
+.info-user-handle-c {
+    display: block;
+    }
+
+header a {
+
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+}
+
+
+.btn {
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    */
+    padding: .375rem .75rem;
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+.btn:not(:disabled):not(.disabled) {
+
+    cursor: pointer;
+
+}
+.btn-group-sm > .btn, .btn-sm {
+
+    padding: .25rem .5rem !important;
+    font-size: 1.5rem;
+    line-height: 1.5 !important;
+    border-radius: .2rem !important;
+
+}
+
+.pb-3, .py-3 {
+
+    padding-bottom: 1rem !important;
+
+}
+
+.thread-part {
+    word-wrap: break-word;
+} 
+
+@media (max-width: 500px){
+
+#popsignup {
+    display: block;
+    margin:0 auto;
+}
+
+#threader-logo {
+    margin-left: 0px;
+} 
+#header-left {
+    display: none;
+}
+
+
+}
+
+@media (min-width: 500px){
+
+    /*.menu-trigger{display: none;}*/
+}
+
+
+@media (min-width: 767px)
+{
+
+       
+
+    .fixed-top
+    {
+    position: relative!important;
+    top: auto!important;
+    }
+    
+    .info-user-handle {
+    /*display: block;*/
+    font-family: Helvetica Neue LT,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    color: #AAB8C2!important;
+    font-weight: 400;
+    font-size: 1.27rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01rem;
+    border-radius: 2px;
+    border: none;
+    text-decoration: none;
+    } 
+}
+
+
+@media (max-width: 767px)
+{
+    .container {
+    margin-top: 2px;
+    }
+}
+
+
+#post-thread-start {
+    /*margin-bottom: 0px;*/
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.AdaptiveMedia-singlePhoto .AdaptiveMedia-photoContainer .AdaptiveMedia-photoContainer-width .AdaptiveMedia-photoContainer-height {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.AdaptiveMedia-video video {
+    border-radius:10px;
+    width:80%;
+    height: auto; max-height:80vh; /*min-height: 360px*/
+}
+
+.AdaptiveMedia-singlePhoto {
+    padding-top:100px;
+}
+
+.AdaptiveMediaOuterContainer {
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.AdaptiveMediaOuterContainer-Quad {
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+
+.AdaptiveMediaOuterContainer-Four {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    text-align:center;
+    display: none;
+}
+
+
+.AdaptiveMediaOuterContainer-Double {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    text-align:center;
+}
+
+.AdaptiveMedia-photoContainer img {
+    background-color: #fff;
+    position: absolute;
+    width:100%;
+    max-width: none!important;
+}
+
+
+.AdaptiveMedia-photoContainer img {
+    background-color: #fff;
+    position: absolute;
+    width:100%;
+    max-width: none!important;
+}
+
+
+.AdaptiveMedia-photoContainer-width .single-img {
+    background-color: #fff;
+    position: absolute;
+    width:100%!important;
+    height: auto!important;
+    max-width: none!important;
+}
+
+
+.AdaptiveMedia-photoContainer-height .single-img {
+    background-color: #fff;
+    position: absolute;
+    height:100%!important;
+    height: auto!important;
+    max-width: none!important;
+}
+
+@media only screen and (max-width: 500px){
+
+.AdaptiveMedia-video video {
+    border-radius:10px;
+    width:100%;
+}
+
+.AdaptiveMediaOuterContainer-Quad {
+    display: none;
+}
+
+.AdaptiveMediaOuterContainer-Four {
+    display:block;
+}
+
+
+
+.AdaptiveMedia-halfHeightPhotoContainer {
+    display: inline-block;
+    height: 68%!important;
+    vertical-align: top;
+    width: calc(100% / 3 - 1px);
+}
+
+.AdaptiveMedia {
+    max-height: 229.5px!important;
+    max-width: 506px;
+}
+
+.thread-part video {
+    max-width: 350px;
+}
+
+.AdaptiveMedia-doublePhoto {
+    font-size: 0;
+    height: 253px;
+    width: 350px!important;
+    font-size: 0;
+    height: 253px;
+    /*width: 506px!important;*/
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    max-height: 170px;
+}
+
+}
+
+
+.AdaptiveMedia-halfWidthPhoto-Double-Left {
+    display: inline-block;
+    height: calc(100% - .5px);
+    overflow: hidden;
+    position: relative;
+    width: calc(50% - .5px);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 0.1px solid #FFF;
+}
+
+.AdaptiveMedia-halfWidthPhoto-Double-Right {
+    display: inline-block;
+    height: calc(100% - .5px);
+    overflow: hidden;
+    position: relative;
+    width: calc(50% - .5px);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: 1px solid #FFF;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .AdaptiveMediaOuterContainer {
+    max-width: 350px;
+    margin: 0 auto;
+
+    }
+}
+
+
+.AdaptiveMedia {
+    max-height: 379.5px;
+    max-width: 506px;
+}
+.AdaptiveMedia {
+    border-radius: 5px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+}
+.AdaptiveMedia-triplePhoto {
+    font-size: 0;
+    height: 337.3333333333333px;
+    /*width: 506px;*/
+}
+
+.AdaptiveMedia-twoThirdsWidthPhoto {
+    display: inline-block;
+    height: 100%;
+    margin-right: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 66.66666666666666%;
+}
+.AdaptiveMedia-triplePhoto {
+    font-size: 0;
+}
+
+
+
+.AdaptiveMedia-photoContainer {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    text-align:left;
+}
+
+
+.AdaptiveMedia-photoContainer-width {
+    position: relative;
+    width: 100%;
+    text-align:left;
+}
+
+
+.AdaptiveMedia-photoContainer-height {
+    position: relative;
+    height: 100%;
+    text-align:left;
+}
+
+.AdaptiveMedia-triplePhoto {
+    font-size: 0;
+}
+
+.AdaptiveMedia-halfHeightPhotoContainer {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    width: calc(100% / 3 - 1px);
+}
+
+.AdaptiveMedia-halfHeightPhoto:first-child {
+    margin-bottom: 1px;
+}
+.AdaptiveMedia-halfHeightPhoto {
+    height: calc(100% / 2 - 1px/2);
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.AdaptiveMedia-doublePhoto {
+    font-size: 0;
+    height: 253px;
+    width: 506px;
+    font-size: 0;
+    height: 253px;
+    /*width: 506px!important;*/
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+}
+
+.AdaptiveMedia-halfWidthPhoto:first-child {
+    margin-right: 1px;
+}
+.AdaptiveMedia-halfWidthPhoto {
+    display: inline-block;
+    height: calc(100% - .5px);
+    overflow: hidden;
+    position: relative;
+    width: calc(50% - .5px);
+}
+
+.AdaptiveMedia-halfWidthPhoto-Four-Top-Left {
+    display: inline-block;
+    height: calc(100% - .5px);
+    overflow: hidden;
+    position: relative;
+    width: calc(50% - .5px);
+    border-top-left-radius: 10px;
+    border-right: 0.1px solid #FFF;
+    border-bottom: 0.1px solid #FFF;
+}
+
+.AdaptiveMedia-halfWidthPhoto-Four-Top-Right {
+    display: inline-block;
+    height: calc(100% - .5px);
+    overflow: hidden;
+    position: relative;
+    width: calc(50% - .5px);
+    border-top-right-radius: 10px;
+    border-left: 0.1px solid #FFF;
+    border-bottom: 0.1px solid #FFF;
+}
+
+.AdaptiveMedia-halfWidthPhoto-Four-Bottom-Left{
+    display: inline-block;
+    height: calc(100% - .5px);
+    overflow: hidden;
+    position: relative;
+    width: calc(50% - .5px);
+    border-bottom-left-radius: 10px;
+    border-right: 0.1px solid #FFF;
+    border-top: 0.1px solid #FFF;
+}
+
+.AdaptiveMedia-halfWidthPhoto-Four-Bottom-Right{
+    display: inline-block;
+    height: calc(100% - .5px);
+    overflow: hidden;
+    position: relative;
+    width: calc(50% - .5px);
+    border-bottom-right-radius: 10px;
+    border-left: 0.1px solid #FFF;
+    border-top: 0.1px solid #FFF;
+}
+
+.AdaptiveMedia-threeQuartersWidthPhoto {
+    display: inline-block;
+    height: 100%;
+    margin-right: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 75%;
+}
+
+.AdaptiveMedia-quadPhoto {
+    font-size: 0;
+}
+
+.AdaptiveMedia-quadPhoto {
+    font-size: 0;
+    height: 379.5px;
+    width: 506px;
+}
+
+.AdaptiveMedia-thirdHeightPhotoContainer {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    width: calc(100% / 4 - 1px);
+}
+
+.AdaptiveMedia-thirdHeightPhoto {
+    height: calc(100% / 3 - 2px/3);
+    margin-bottom: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.AdaptiveMedia-video {
+    position: relative;
+    min-height: 100px;
+    border-radius: 5px;
+}
+
+.AdaptiveMedia-videoContainer {
+    border-radius: inherit;
+}
+
+.PlayableMedia-container {
+    border: 1px solid #e6ecf0;
+    border-radius: 4px;
+}
+
+.PlayableMedia-player {
+    background-color: #ccd6dd;
+    background-size: cover;
+    border-radius: inherit;
+    cursor: default;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.PlayableMedia-player .PlayableMedia-reactWrapper {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+
+.twitter-tweet {
+    display: block !important;
+}
+
+textarea {
+    resize: none;
+}
+
+#post-img-user {
+    opacity: 0;
+}
+
+.info-user-bio a {
+color: #AAB8C2 !important;
+font-weight: 400;
+font-size: 1.27rem;
+line-height: 1.5rem;
+letter-spacing: 0.01rem;
+text-decoration: none;
+}
+
+.info-user-bio a:hover {
+color:#030303!important;
+}
+
+
+.fh{
+    width: auto!important; height: 100%!important;
+} 
+
+.fw {
+    width: 100%!important; height: auto!important;
+}
+
+
+/* account */
+
+.premium-badge {
+
+border-radius: 3px;
+
+font-size: 1rem;
+
+font-weight: 400;
+
+padding: 2px 4px;
+
+text-transform: uppercase;
+
+background: #999;
+
+color: #fff;
+
+vertical-align: top;
+
+top: -12px;
+
+position: relative;
+
+}
+
+.title-part {
+max-width: 100%!important;
+background: #000;
+height:300px;
+margin:0;
+}
+
+#title-space {
+font-family: Times;
+min-height:85px;
+display: block;
+margin:0 auto;
+/*font-family: Helvetica Neue LT,Helvetica Neue,Helvetica,Arial,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;*/
+font-weight: 700;
+font-size: 7.5rem;
+line-height: 8.5rem;
+letter-spacing: -.025rem;
+margin-bottom: 1.875rem;
+color:#FCFCFC;
+}
+
+#title-sub-space {
+font-family: Helvetica Neue LT,Helvetica Neue,Helvetica,Arial,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+font-weight: 700;
+font-size: 1.9975rem;
+line-height: 3rem;
+letter-spacing: 0;
+margin-bottom: 1.875rem;
+color:#FCFCFC;
+}
+
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+
+    color: #000;
+    background-color: #fafafa;
+    text-decoration: none;
+    
+}
+
+.nav-link.active { 
+
+border-bottom: 4px solid #000;
+
+padding: 4px 20px 15px 20px;
+
+border-radius: 0px;
+}
+
+.nav-link { 
+
+color:#CCC;
+
+border-bottom: 4px solid #FFF;
+
+padding: 4px 20px 15px 20px;
+
+border-radius: 0px;
+}
+
+
+.nav-pills .nav-link {
+
+font-family: Helvetica Neue LT,Helvetica Neue,Helvetica,Arial,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+
+font-weight: 700;
+
+font-size: 2.5rem;
+
+line-height: 2.5rem;
+
+letter-spacing: 0;
+
+text-decoration: none;
+
+}
+
+
+#pills-tab {
+
+/*border-bottom: 1px solid #CCC;*/
+
+}
+
+#pills-tab > li {
+
+margin:0px 0px;
+
+}
+
+
+.lock-premium{
+    vertical-align: bottom!important;
+}
+
+
+@media (max-width: 768px) {
+
+.nav-link {
+padding: 4px 7px 15px 7px;
+}
+
+
+.nav-link.active { 
+
+border-bottom: 4px solid #000;
+
+padding: 4px 7px 15px 7px!important;
+
+border-radius: 0px;
+}
+
+
+.nav-pills .nav-link #taot #theartofthreading {
+
+font-size: 1.6rem;
+
+line-height: 1.6rem;
+}
+
+#taot {
+    max-width: 500px;
+}
+
+/*
+.nav-link.active { 
+font-size: 1.6rem;
+line-height: 1.6rem;
+}
+*/
+
+}
+
+
+.card {
+    border: 0px;
+    border-radius:0px;
+    transition: box-shadow 0.3s ease-in-out;
+    -webkit-box-shadow: 0 1px 7px rgba(0,0,0,.05);
+    box-shadow: 0 1px 7px rgba(0,0,0,.05);
+    margin-bottom: 40px!important;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 1px 7px rgba(0,0,0,.3);
+    box-shadow: 0 1px 7px rgba(0,0,0,.3);
+    cursor:pointer;
+}
+
+.card-body {
+    min-height: 290px;
+}
+
+
+.card-pic {
+/*
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+*/
+  height: 225px; width: 100%; display:block;
+ 
+  background-repeat: no-repeat;background-position: center;background-size: 100% auto;
+}
+
+
+.overlay {
+  position: relative;
+}
+
+.overlay:after {
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  opacity: .1;
+}
+
+
+.post-preview {
+overflow: hidden;
+height: 240px;
+}
+
+
+.dark:after {
+  background-color: #030303;
+}
+
+.preview-thread {
+ margin:14px 0;
+ font-size:18px;
+ text-decoration:none!important;
+}
+
+.preview-thread a {
+ text-decoration:none!important;
+}
+
+.preview-thread a::after {
+
+background-image: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),to(#fff));
+background-image: linear-gradient(hsla(0,100%,100%,0),#fff);
+bottom: 0px;
+content: "";
+height: 5.5em;
+left: 0;
+position: absolute;
+right: 0;
+width: 100%;
+
+}
+
+.tweetbrand {
+position: relative;right: 4px;top: 4px;
+}
+
+.profile-pic {
+margin-bottom: 10px;
+}
+
+.authorname-container { margin-top: 10px; margin-bottom: 10px;
+                z-index:200; position: absolute;bottom:20px;}
+
+.home-read-more { text-decoration: none; color:#030303;}
+.home-read-more:hover { text-decoration: none; }
+
+.readtw { 
+position:absolute!important;right:10px!important;
+}
+
+.fa-twitter {
+font-size:17.5px!important;color:#1DA1F2!important;
+}
+
+.bookmark {
+opacity:0.8;
+position: absolute !important;
+right: 15px !important;
+top: 49px;
+}
+
+.active {
+opacity: 1;
+}
+
+.bookmark:hover img{
+    opacity:1;
+}
+
+
+/* menu header */
+
+.dropdown-toggle img{
+height:57px;
+border-radius:50px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+display: block;
+width:57px;
+background:#F0F0F0;
+}
+
+.dropdown {
+    height:100%;
+    margin:0!important;
+}
+
+.dropdown-toggle, .dropdown-toggle:hover, .dropdown-toggle:active {
+    color:#FFF;
+    cursor: pointer;
+    font-size: 1.9rem;
+    font-weight: 600;
+    padding-top: 5px;
+    display: block;
+}
+
+.dropdown-menu {
+  right:0!important;
+  left: unset;
+  border: 1.5px solid rgba(0,0,0,.05);
+  font-size:1.8rem;
+}
+.dropdown-menu>li>a {
+    color:#428bca;
+}
+.dropdown ul.dropdown-menu {
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:20px;
+    width:200px;
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.dropdown ul.dropdown-menu:before {
+
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 37px;
+    z-index: 10;
+}
+.dropdown ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid rgba(0,0,0,.05);
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 35px;
+    z-index: 9;
+}
+
+.menu-link{
+color:#333!important;
+display: block;
+padding-left:8px;
+width:190px;
+}
+
+.menu-link:hover {
+  background:#030303;
+  text-decoration: none;
+  color:#FFF!important;
+  padding-left:10px;
+}
+
+
+#menu-name-user {
+color: #030303;
+font-weight: 700;
+word-wrap: break-word;
+}
+
+#menu-username-user {
+margin-top: 0.3rem;
+font-size: 0.8em;
+color: #999;
+}
+
+#menu-top {
+  cursor:default;
+  padding-left:10px;
+  background:#FFF;
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+#menu-top:hover {
+  cursor:pointer;
+  text-decoration: none;
+  padding-left:12px;
+}
+
+#img_default img {
+opacity: 0;
+display: block;
+height: 40px;
+width: 40px;
+border-radius: 50px;
+background: #030303;
+text-align: center;
+font-weight: 400;
+font-size: 1.3rem;
+color: #FFF;
+text-decoration: none;
+}
+
+#img_default:hover {
+color:#FFF;
+}
+
+.ml-auto {
+
+    margin-left: 0 !important;
+
+}
+
+.menu-part {
+    font-size:1.6rem;
+    margin: 10px!important;
+    padding-top: 7px;
+}
+
+
+#dropmenu {
+top: 37px!important;
+left: -132px!important;
+transform: none!important;
+}
+
+.namebubble {
+background: #4a4848;
+
+border-radius: 100px;
+
+width: 40px;
+
+height: 40px;
+text-align: center;
+}
+
+.letterbubble {
+font-size: 1.9rem;
+font-weight: 600;
+color: #000;
+}
+
+
+/* end menu */
+
+
+/* home */
+
+#signin-header-btn {
+margin-right: 20px;
+color:#6c757d;    
+}
+
+.title-part {
+    height:100%;
+}
+
+@media(max-width:460px){
+#title-space {
+    font-size:4.5rem;
+    line-height:4.5rem;
+    min-height: 110px;
+}
+}
+
+@media(max-width:767px){
+
+#actions {
+    text-align: center;
+    margin-top:30px;
+}
+
+#title-space {
+    font-size:5.5rem;
+    line-height:5.5rem;
+}
+
+#title-sub-space {
+    margin-top:40px;
+}
+
+
+#foobox {
+    padding-bottom: 100px;
+    background:#000;
+}
+
+#footer-logo-col{
+margin: auto;
+}
+
+#footer-links-col{
+margin: auto;
+}
+
+#footer-links-col a {
+    margin-left:30px;
+    margin-right:30px; 
+}
+
+
+}
+
+
+/* end home */
+
+
+/* signup + overlay */
+
+#signup-tw{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+#signin-tw{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+#already-account {
+    display: block;
+}
+
+
+#already-account-login {
+    color:#000;
+    display: block;
+}
+
+#signup-info {
+    font-size: 1.4rem;
+    color: #6c757d;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+    font-weight: 300;
+    max-width: 290px;
+    display: block;
+    margin: 20px auto;
+}
+
+#signup-info a {
+    font-size: 1.4rem;
+    color: #333;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.modal-header {
+padding: 10px;
+border-bottom: 0;
+background:#000;
+}
+
+.modal-backdrop.show {
+    opacity: 1!important;
+}
+
+.modal-backdrop {
+  z-index: 0;
+}
+
+.modal-dialog {
+    max-width: 700px;
+    margin: 200px auto;
+}
+
+@media(max-width: 767px){
+
+.card-art-body {
+    min-height: 315px!important;
+    height: 315px!important;
+}
+
+.author-name {
+    font-size: 2rem;
+}
+
+.modal-dialog{
+margin: 110px auto;
+}
+
+#modalsignup {
+     background-color: rgba(0, 0, 0, 1);
+}
+
+#modallogin {
+     background-color: rgba(0, 0, 0, 1);
+}
+
+#modalaction {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.modal-header {
+padding-top: 30px;
+}
+
+.modal-content {
+height:480px!important;
+}
+
+}
+
+.modal-body {
+
+font-family: Helvetica Neue LT,Helvetica Neue,Helvetica,Arial,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+font-weight: 700;
+font-size: 1.7rem!important;
+line-height: 2rem;
+letter-spacing: 0;
+margin-bottom: 1.875rem;
+color: #000;
+text-align: center;
+}
+
+#body-login {
+    color:#FFF;
+    background:#F3F3F3;
+    border-radius:2px;
+}
+
+.modal-body p {
+margin: auto;
+font-size: 1.9rem;
+
+}
+
+#value-p {
+    background:#000!important;
+    color: #FFF!important;
+    /*height: 67px!important;*/
+    font-size: 1.85rem!important;
+    font-weight: 500!important;
+    line-height: 2.4rem!important;
+}
+
+
+
+#value-p p {
+    max-width: 400px;
+    margin-bottom:10px;
+}
+
+#value-p-login {
+    background:#FCFCFC!important;
+    color: #000!important;
+    /*height: 67px!important;*/
+    font-size: 1.85rem!important;
+    font-weight: 500!important;
+    line-height: 2.4rem!important;
+}
+
+
+#value-p-login p {
+    max-width: 360px;
+    margin-bottom:10px;
+}
+
+#value-p-action p {
+    max-width: 380px;
+    margin-bottom:10px;
+}
+
+
+.modal-title {
+font-family: Times;
+min-height: 75px;
+display: block;
+margin: 0 auto;
+margin-bottom: 0px;
+font-weight: 700;
+font-size: 4.5rem;
+line-height: 7.5rem;
+letter-spacing: -.025rem;
+margin-bottom: 1.875rem;
+color: #FFF;
+}
+
+
+.modal-content {
+    height:420px;
+    background:#DEEDD5;
+    border:0;
+}
+
+#close-modal-signup {
+top: 10px;
+right: 16px;
+position: absolute;
+text-shadow: 0!important;
+opacity: 1!important;
+font-weight: 700;
+line-height: 1;
+}
+
+#close-modal-login {
+top: 10px;
+right: 16px;
+position: absolute;
+text-shadow: 0!important;
+opacity: 1!important;
+font-weight: 700;
+line-height: 1;
+}
+
+#close-modal-action {
+top: 10px;
+right: 16px;
+position: absolute;
+text-shadow: 0!important;
+opacity: 1!important;
+font-weight: 700;
+line-height: 1;
+}
+
+.close {
+    color:#6c757d;
+    font-size: 2.5rem;
+    cursor:pointer;
+}
+
+.close:hover {
+    color:#CCC;
+}
+
+.modal-title {
+    margin:auto;
+    text-align: center;
+}
+
+.modal-body {
+    font-size:3rem;
+}
+
+#action-header{
+    border-radius: 2px;
+    background:#DEEDD5;
+    color:#000;
+}
+
+#action-header h5 {
+    background:#DEEDD5;
+    color:#000;
+}
+
+#value-p-action {
+    background:#DEEDD5;
+    color:#000;
+}
+
+
+
+#popsignup {
+    cursor:pointer;
+}
+
+#modalsignup {
+     background-color: rgba(0, 0, 0, 0.6);
+}
+
+#modallogin {
+     background-color: rgba(0, 0, 0, 0.6);
+}
+
+#modalaction {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#header-login {
+    background: #FFF;
+    border-radius: 2px;
+}
+
+#title-login {
+    color:#030303;
+}
+
+
+#content-login {
+    background:#F3F3F3;
+}
+
+.jPanelMenu-panel {
+    background:#000!important;
+}
+
+</style>
+         
+        <main class="container title-part">
+            
+        <div class="row" style="text-align:center;">
+              
+          <div class="col-md-7 p-lg-7 mx-auto my-7" style="margin-top:50px;margin-bottom:70px;">
+            
+            
+            
+            <h1 id="title-space">404</h1>
+            <p id="title-sub-space">Page Not Found</p>
+            
+            
+            
+            <p id="actions">
+            <br>
+            <br>
+            <a href="https://threader.app" style="width:144px;height:48px;background:#FFF;padding:16px 24px;font-family: Helvetica Neue LT,Helvetica Neue,Helvetica,Arial,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;font-weight: 700;font-size: 17px;line-height: 3rem;letter-spacing: 0;border-radius:50px;text-decoration:none;">Go to home</a>
+            <br>
+            <br>
+            <br>
+            <a id="download-button" href="https://itunes.apple.com/us/app/threader/id1317519091?mt=8" style="display:none;"><img src="https://threader.app/img/download_button.svg"></a>
+            </p>
+          </div>
+          <div class="product-device box-shadow d-none d-md-block"></div>
+          <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+        
+        </div>
+
+        </main> <!-- /container -->
+
+        <!--
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        -->
+         
+    
+        
+
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script src="https://threader.app/js/vendor/jquery.jpanelmenu.min.js"></script>
+        <script src="https://threader.app/js/vendor/bootstrap.min.js"></script>
+        <script src="https://threader.app/js/vendor/fastclick.min.js"></script>
+        <script src="https://threader.app/js/typed.js"></script>
+        <script>
+        $(document).ready(function () {
+            
+
+            if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+                    
+                $('#download-button').css('display', 'block');
+                $('#popsignup').css('display', 'none');
+                $('#follow-threader').css('display', 'none');
+
+            } else {
+
+                $('#download-button').css('display', 'none');
+                $('#popsignup').css('display', 'block');
+                $('#follow-threader').css('display', 'none');
+
+            }
+
+
+        $("#post-img-user").one("load", function() {
+          // do stuff
+          $('#post-img-user').fadeTo( "slow" , 1);
+
+        }).each(function() {
+          if(this.complete) $(this).load();
+        });
+
+
+
+
+  
+
+        $( ".card" ).click(function(event) {
+            
+                  var target = $( event.target );
+                  var parent = $( event.target.parentNode );
+                  if( parent[0]['className'] == "bookmark") {
+                    $('#modalaction').modal('toggle');
+                    return false;
+                  } else if(target[0]['className'] == "threader-name-home") {
+                    //$(this).find('.threader-username').value()
+                    //alert("username");
+                  } else {
+                    var url = $(this).attr("data-url");
+                    window.location = url;
+                    return false;
+                  }
+        });
+
+        $('#signup-tw').on('click', function() {
+            window.location.href = "https://threader.app/signup/twitter";
+        });
+
+        $('#signin-tw').on('click', function() {
+            window.location.href = "https://threader.app/auth/twitter";
+        });
+        
+        $('#popsignup').on('click', function() {
+            //$('#modalsignup').show();
+            $('#modalsignup').show();
+        });
+
+        $('#signin-header-btn').on('click', function() {
+            $('#modallogin').modal('toggle');
+        });
+
+        $('#poplogin').on('click', function() {
+            //$('#modalsignup').show();
+            $('#modallogin').show();
+        });
+
+        $('#signup-open-login').on('click', function() {
+            $('#modalsignup').modal('toggle');
+            setTimeout(
+              function() 
+              {
+               $('#modallogin').modal('toggle');
+               $('#modalsignup').hide();
+              }, 200);
+
+        });
+
+        $('#action-open-login').on('click', function() {
+            $('#modalaction').modal('toggle');
+            setTimeout(
+              function() 
+              {
+               $('#modallogin').modal('toggle');
+               $('#modalaction').hide();
+              }, 200);
+
+        });
+
+        $('#login-open-signup').on('click', function() {
+            $('#modallogin').modal('toggle');
+            setTimeout(
+              function() 
+              {
+                //do something special
+                //alert(1);
+                $('#modalsignup').modal('toggle');
+                $('#modallogin').hide();
+              }, 200);
+
+        });
+
+        $('#close-modal-login').on('click', function() {
+            $('#modallogin').modal('toggle');
+        });
+
+        $('#close-modal-action').on('click', function() {
+            $('#modalaction').modal('toggle');
+        });
+
+        $("#img_default").one("load", function() {
+          $('#img_default').fadeTo( "slow" , 1);
+
+        }).each(function() {
+          if(this.complete) $(this).load();
+        });
+
+            function checkImage(imageSrc, good, bad) {
+                var img = new Image();
+                img.onload = good; 
+                img.onerror = bad;
+                img.src = imageSrc;
+            }
+
+            
+
+        $('#post-img-user').each(function(){   
+            
+           if($(this).prop('naturalWidth') != $(this).prop('naturalHeight')){
+
+                var source = $(this).attr('src');
+                var extension = source.substr( (source.lastIndexOf('.') +1) );
+                                    if(extension=="jpeg"){
+                                        var photo_url = source.slice(0, -5) + "_bigger.jpeg"; 
+                                    }
+                                    if(extension=="JPEG"){
+                                        var photo_url = source.slice(0, -5) + "_bigger.JPEG"; 
+                                    }
+                                    if(extension=="jpg"){
+                                        var photo_url = source.slice(0, -4) + "_bigger.jpg";  
+                                    }
+                                    if(extension=="JPG"){
+                                        var photo_url = source.slice(0, -4) + "_bigger.JPG";  
+                                    }
+                                    if(extension=="png"){
+                                        var photo_url = source.slice(0, -4) + "_bigger.png";  
+                                    }
+                                    if(extension=="PNG"){
+                                        var photo_url = source.slice(0, -4) + "_bigger.PNG";  
+                                    }
+
+                                    $(this).attr('src', photo_url);
+                                    return false;
+
+           }
+
+        });
+        
+        $('#close-modal-adblock').on('click', function() {
+            $('#modaladblock').modal('toggle');
+        });
+
+        $('#got-it-adblock').on('click', function() {
+            $('#modaladblock').modal('toggle');
+        });        
+
+        $('#header-fx').fadeTo(1500, 1);
+
+        function whenNoTrackingProtection() {
+            if (!whenNoTrackingProtection.promise) {
+                var dfd = new $.Deferred();
+                whenNoTrackingProtection.promise = dfd.promise();
+
+                var time = Date.now();
+                $('<img/>')
+                    .attr('src', '//abs.twimg.com/favicons/twitter.ico')
+                    .on('load', dfd.resolve)
+                    .on('error', function(err) {
+                        //alert("error");
+                        //console.log(err);
+                        $('#modaladblock').modal('toggle');
+                        if ((Date.now() - time) < 50) {
+                            dfd.reject();
+                        } else {
+                            // the request took to long, it seams this is a real network error
+                            dfd.resolve();
+                        }
+                    });
+            }
+
+            return whenNoTrackingProtection.promise;
+        }
+
+        //whenNoTrackingProtection();
+    
+        });
+        </script>
+        <script src="https://threader.app/js/main.js"></script>
+    </body>
+</html>

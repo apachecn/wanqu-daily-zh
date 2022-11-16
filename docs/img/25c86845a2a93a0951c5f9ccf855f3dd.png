@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Domain error</title>
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+      body{width:100vw;height:100vh;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif}.content{box-sizing: border-box;display:flex;justify-content:center;align-items:center;flex-direction: column;height:100%;width:100%;padding:4vmin;text-align:center}h1,h2{margin:0;padding:0;color:#242628}h1{font-weight:600;font-size:8vmin;line-height:1.1em;}h2{margin:5px 0 4vmin;font-weight:200;font-size:3.5vmin;line-height:1.3em;opacity:0.5;}
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40498841-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-40498841-2');
+    </script>
+  </head>
+  <body>
+  <div class="content">
+    <h1>Domain error</h1>
+    <h2>Failed to resolve DNS path for this host</h2>
+  </div>
+  </body>
+</html>

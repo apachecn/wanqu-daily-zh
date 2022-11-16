@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+<title>TTTThis</title>
+<meta charset="utf-8" />
+<meta name="description" content="The requested file was not found. Oh no..." />
+<meta name="author" content="Datenstrom" />
+<meta name="generator" content="TTTThis" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/png" href="/media/resources/stockholm-icon.png" />
+<link rel="alternate" type="application/rss+xml" href="/feed/page:feed.xml" />
+<link rel="stylesheet" type="text/css" media="all" href="/media/resources/bundle-3acdebe573.min.css" />
+<script type="text/javascript" defer="defer" src="/media/resources/bundle-ff2ec84079.min.js"></script>
+</head>
+
+<style type="text/css">
+    h1 {font-family: Georgia, Times, Times New Roman, serif;}
+    h1 a {color:#727272 !important;}
+    body p {font-family: Georgia, Times, Times New Roman, serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; color:black;}
+    li {color:black;}
+    div.entry-meta p, div.footer p {color:grey; font-size:12px; font-family:arial;}
+    
+    div.main {min-height:500px;}
+</style>
+
+<body>
+<div class="page layout-error">
+<div class="header" role="banner">
+<div class="sitename">
+<h1><a href="/"><i class="sitename-logo"></i></a></h1>
+</div>
+<div class="sitename-banner"></div>
+<div class="navigation" role="navigation">
+<ul>
+<li><a href="/">TTTThis</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/blog/">Blog</a></li>
+</ul>
+</div>
+<div class="navigation-banner"></div>
+</div>
+<div class="content">
+<div class="main" role="main">
+<h1>File not found</h1>
+<p>The requested file was not found. Oh no...</p>
+</div>
+</div>
+<div class="footer" role="contentinfo">
+    <hr>
+<div class="siteinfo">
+<!-- hitwebcounter Code START --> Aprox. 135000 pageloads since August 19 2017 (the hitcounter website went down, we tried another one, hitcounter dot com, but it seemed bad, and was making page load slow and performing TLS handshakes, so it was removed because that site I suspect is untrustworthy.
+ | <a href="https://datenstrom.se/yellow/" target="blank">Made with Datenstrom Yellow</a> </span>
+<br>
+<a href="https://twitter.com/TTTThiscom" target="blank"><img src="https://image.flaticon.com/icons/svg/123/123728.svg" style="width:25px;"></a>
+<a href="https://www.reddit.com/r/tttthis" target="blank"><img src="https://image.flaticon.com/icons/svg/52/52191.svg" style="width:25px;"></a>
+<a href="https://www.instagram.com/tttthiscom/" target="blank"><img src="https://image.flaticon.com/icons/svg/48/48898.svg" style="width:25px;"></a>
+<a href="http://tttthis.com/feed/" target="blank"><img src="https://image.flaticon.com/icons/svg/2111/2111649.svg" style="width:25px;"></a>
+
+
+
+<div class="siteinfo-banner"></div>
+</div>
+</div>
+</div>
+</body>
+</html>

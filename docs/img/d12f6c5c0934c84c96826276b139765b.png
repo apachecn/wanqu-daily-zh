@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="66px" viewBox="0 0 50 66">
+  <title>Group</title>
+  <desc>Created with Sketch.</desc>
+  <g id="404-error" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Desktop-HD" transform="translate(-696.000000, -186.000000)">
+      <g id="Group" transform="translate(696.000000, 186.000000)">
+        <path d="M25,0 C9.71878424,0 0,10.4253135 0,25.3071961 C0,42.2899328 25,66 25,66 C25,66 50,42.2899328 50,25.3071961 C50,10.4253135 40.2812158,0 25,0" id="Fill-1" fill="#FF5C37"></path>
+        <line x1="16" y1="17" x2="33" y2="34" id="Path-2" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="16" y1="17" x2="33" y2="34" id="Path-2" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(24.500000, 25.500000) rotate(90.000000) translate(-24.500000, -25.500000) "></line>
+      </g>
+    </g>
+  </g>
+</svg>

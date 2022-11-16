@@ -1,0 +1,20 @@
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: public/images/area-closed-small.jpg</li>
+<li>RequestId: R8H6B7X1246X0PHN</li>
+<li>HostId: 1xHSSVcWdWYXORbdqF0ZTL5mg6TBj46sJuk7L9oiQrXz9FAAfeSX4Gf3nxlNbmGuPN5DEO1EGnM=</li>
+</ul>
+<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: 404.html</li>
+</ul>
+<hr/>
+</body>
+</html>
